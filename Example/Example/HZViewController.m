@@ -7,7 +7,7 @@
 //
 
 #import "HZViewController.h"
-#import "HZCategory.h"
+#import "HBCategory.h"
 @interface HZViewController ()
 
 @end
@@ -18,9 +18,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.height = 100;
-    NSLog(@"---------%d", [NSString stringContainsEmoji:@"dddd"]);
-    NSLog(@"---------%d", [NSString isBlankString:@"sssss"]);
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 300, 50)];
+    label.text = @"哈哈哈哈哈\n哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈";
+    
+    label.backgroundColor = [UIColor redColor];
+    label.numberOfLines = 0;
+    [self.view addSubview:label];
+    
+    
+    NSLog(@"---------%lu", [label numberOfLabelContent]);
 }
 
 - (void)didReceiveMemoryWarning {

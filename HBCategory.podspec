@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HBCategory"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "常用分类的整理"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/jihuaibin2017/HBCategory.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/jihuaibin2017/HBCategory.git", :tag => "0.0.2" }
   s.source_files  = "HBCategory/**/*.{h,m}"
   s.requires_arc = true
 end

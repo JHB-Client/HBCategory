@@ -11,7 +11,7 @@
 
 #import "UIColor+HexString.h"
 #import "UIImage+Extension.h"
-#import "UILabel+FontAndTextColor.h"
+#import "UILabel+Extension.h"
 #import "UITabBar+Badge.h"
 #import "UITextField+ForbiddenCopyOrPaste.h"
 #import "UIView+Extension.h"
